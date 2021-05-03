@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         if startStop == "stop"{
             timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(change), userInfo: nil, repeats: true)
             
-                counter = counter + 1
+               // counter = counter + 1
             startStop = "start"
             titre.text = "Animation Started"
         }
