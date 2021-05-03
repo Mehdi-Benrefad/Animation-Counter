@@ -48,6 +48,12 @@ class ViewController: UIViewController {
             startStop = "stop"
             titre.text = "Animation Stoped"
         }
+        else if startStop == "stop"{
+            counter = 0
+            count.text = "0"
+            startStop = "stop"
+            titre.text = "Animation Stoped"
+        }
     }
     
     @objc func change(){
